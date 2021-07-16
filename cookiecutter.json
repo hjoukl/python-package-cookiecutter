@@ -1,0 +1,14 @@
+{
+	"full_name": "Holger Joukl",
+	"email": "",
+	"github_username": "hjoukl",
+	"project_name": "Python Boilerplate",
+    "project_slug": "{{ '-'.join(cookiecutter.project_name.lower().split()) }}",
+	"project_short_description": "{{ cookiecutter.project_name }} short description",
+    "project_package": "{{ cookiecutter.project_slug.replace('-', '_') }}",
+	"project_url": "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
+	"project_documentation_url": "{{ cookiecutter.project_url }}",
+	"project_issues_url": "{{ cookiecutter.project_url }}/issues",
+	"version": "0.1.0-alpha1.dev1",
+    "license": ["Mozilla Public License 2.0"]
+}

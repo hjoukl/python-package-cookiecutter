@@ -1,0 +1,1 @@
+Copyright (c) {% now 'local', '%Y' %}, The {{ cookiecutter.project_name }} Contributors
